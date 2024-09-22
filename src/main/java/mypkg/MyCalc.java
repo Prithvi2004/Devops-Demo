@@ -18,6 +18,10 @@ public class MyCalc {
 		return a/b;
 	}
 	
+	public void greet() {
+		System.out.println("Done my !st Mini_Project");
+	}
+	
 	
 
 	public static void main(String[] args) {
@@ -26,6 +30,7 @@ public class MyCalc {
 		System.out.println("Diff is: "+obj.diff(20, 10));
 		System.out.println("Mul is: "+obj.mul(20, 10));
 		System.out.println("Div is: "+obj.div(20, 10));
+		obj.greet();
 		
 
 	}
